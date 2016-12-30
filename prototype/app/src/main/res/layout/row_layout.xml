@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:id="@+id/streetTV"
+        android:text="Device ID"
+        android:gravity="center"
+
+        android:layout_weight=".2" />
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="74dp"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:orientation="vertical"
+        android:layout_weight=".2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/latTV"
+        android:text="latitude"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/longTV"
+        android:text="longitude"
+        />
+    </LinearLayout>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:id="@+id/heightTV"
+        android:layout_weight=".2"
+        android:text="height"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:id="@+id/timestampTV"
+        android:text="timestamp"
+        android:layout_weight=".2"
+        android:gravity="center"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".2"
+        android:id="@+id/imageIV"
+
+        />
+
+
+
+
+</LinearLayout>
